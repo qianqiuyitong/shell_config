@@ -91,3 +91,15 @@
 -  有的securecrt颜色方案配置可能会导致屏幕闪烁，看下颜色方案的配置“启用闪烁”是否打钩
 
     ![image](https://github.com/lmule/vim/raw/master/screenshots/secure-screen-blink.png)
+
+
+
+cd ~/.vim/bundle/vimproc.vim
+ git fetch
+make
+https://zunermuka.blogspot.com/2015/10/memo-vimbundlevimproclibvimprocmacso-is.html
+
+http://wiki.baidu.com/pages/viewpage.action?pageId=133607571
+
+find . -name "*.cpp"  -name "*.c" -o -name "*.cc" -o -name "*.h" > cscope.files
+cscope -bq -i cscope.files
