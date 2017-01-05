@@ -103,3 +103,7 @@ http://wiki.baidu.com/pages/viewpage.action?pageId=133607571
 
 find . -name "*.cpp"  -name "*.c" -o -name "*.cc" -o -name "*.h" > cscope.files
 cscope -bq -i cscope.files
+
+vimrc 里面
+ "let g:NERDTreeQuitOnOpen=1
+"let g:NERDTreeShowHidden=1 
