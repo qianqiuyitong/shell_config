@@ -99,7 +99,6 @@ cd ~/.vim/bundle/vimproc.vim
 make
 https://zunermuka.blogspot.com/2015/10/memo-vimbundlevimproclibvimprocmacso-is.html
 
-http://wiki.baidu.com/pages/viewpage.action?pageId=133607571
 
 find . -name "*.cpp"  -name "*.c" -o -name "*.cc" -o -name "*.h" > cscope.files
 cscope -bq -i cscope.files
